@@ -20,4 +20,4 @@ siamese = Breed.find_or_create_by(name: "Siamese",
 
 bob = Owner.find_or_create_by(name: "bob")
 
-kitty = Cat.find_or_create_by(name: "Kitty", owner: bob, breed: tortie)
+kitty = Cat.find_or_create_by(name: "Kitty", owner: bob, breed: tortie, hair_length: "long")
